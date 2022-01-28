@@ -1,0 +1,60 @@
+/* Write your CSS here */
+* {
+  font-family: 'Roboto';
+  margin: 0px;
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #07080c;
+  min-height: 100vh;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+.title {
+  color: #ffffff;
+  font-style: italic;
+  font-size: 45px;
+}
+
+.image {
+  width: 60%;
+}
+
+.description {
+  color: #ffffff;
+  font-size: 30px;
+  margin-top: 15px;
+}
+
+.paragraph {
+  color: #cbd5e1;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.button {
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.acc-button {
+  border-width: 0px;
+  background-color: #0b69ff;
+  color: #ffffff;
+}
+
+.break-button {
+  border-width: 1px;
+  border-style: solid;
+  border-color: #94a3b8;
+  color: #94a3b8;
+  background-color: transparent;
+}
